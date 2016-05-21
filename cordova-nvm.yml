@@ -1,0 +1,7 @@
+description: Install Cordova on the current node version using the nvm easy-installer.
+
+install:
+  - npm install -g cordova
+
+depends-easy:
+  - 'Install "dannywillems/easy-install", {"file": "yml/nvm.yml"}'
