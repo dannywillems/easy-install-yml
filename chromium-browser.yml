@@ -1,0 +1,5 @@
+description: Chromium browser
+
+install:
+  - debian:
+    - sudo apt-get install -y chromium-browser
