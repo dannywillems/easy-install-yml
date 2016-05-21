@@ -1,0 +1,5 @@
+description: Install git
+
+install:
+  - debian:
+    - sudo apt-get install -y git
