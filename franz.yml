@@ -1,0 +1,9 @@
+description: Franz is a free messaging app supporting multiple chat platforms.
+
+install:
+  - debian:
+    - FILE="/tmp/franz.tar.gz" && FRANZ_EXTRACT_DIR=$HOME/.franz_app && wget -qO $FILE http://bit.ly/1Sj89br && mkdir $FRANZ_EXTRACT_DIR && tar -xvf $FILE -C $FRANZ_EXTRACT_DIR
+  - arch:
+    - FILE="/tmp/franz.tar.gz" && FRANZ_EXTRACT_DIR=$HOME/.franz_app && wget -qO $FILE http://bit.ly/1Sj89br && mkdir $FRANZ_EXTRACT_DIR && tar -xvf $FILE -C $FRANZ_EXTRACT_DIR
+  - fedora:
+    - FILE="/tmp/franz.tar.gz" && FRANZ_EXTRACT_DIR=$HOME/.franz_app && wget -qO $FILE http://bit.ly/1Sj89br && mkdir $FRANZ_EXTRACT_DIR && tar -xvf $FILE -C $FRANZ_EXTRACT_DIR
