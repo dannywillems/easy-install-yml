@@ -1,0 +1,5 @@
+description: curl
+
+install:
+  - debian:
+    - sudo apt-get install curl
