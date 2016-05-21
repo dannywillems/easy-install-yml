@@ -1,0 +1,7 @@
+description: Install grunt and using easy-install nvm dependency.
+
+install:
+  - npm install -g grunt
+
+depends-easy:
+  - 'Install "dannywillems/easy-install", {"file": "yml/nvm.yml"}'
