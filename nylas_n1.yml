@@ -1,0 +1,5 @@
+description: Install Nylas N1, an open source and extensible client mail multi platform
+
+install:
+  - debian:
+    - URL="https://edgehill.nylas.com/download?platform=linux-deb&_ga=1.213348637.82127932.1463815284"; FILE="/tmp/nylas_n1.deb"; wget $URL -O $FILE && sudo dpkg -i $FILE;rm $FILE
