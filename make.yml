@@ -1,0 +1,4 @@
+description: Install make
+install:
+  - debian:
+    - sudo apt-get install -y make
