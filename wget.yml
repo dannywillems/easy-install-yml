@@ -1,0 +1,5 @@
+description: wget
+
+install:
+  - debian:
+    - sudo apt-get install wget
