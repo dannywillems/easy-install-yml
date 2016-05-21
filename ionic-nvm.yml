@@ -1,0 +1,7 @@
+description: Install ionic on the current node version using the nvm easy-installer.
+
+install:
+  - npm install -g ionic
+
+depends-easy:
+  - 'Install "dannywillems/easy-install", {"file": "yml/nvm.yml"}'
