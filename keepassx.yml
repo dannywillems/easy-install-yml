@@ -1,0 +1,5 @@
+description: Install keepassx.
+
+install:
+  - debian:
+    - sudo apt-get install keepassx
