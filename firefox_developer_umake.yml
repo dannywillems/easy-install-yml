@@ -1,0 +1,8 @@
+description: Firefox developer edition
+
+install:
+  - debian:
+    - sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make -y
+    - sudo apt-get -y update
+    - sudo apt-get install -y ubuntu-make
+    - umake web firefox-dev
