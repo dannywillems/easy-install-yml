@@ -1,0 +1,5 @@
+description: vim, the text editor
+
+install:
+  - debian:
+    - sudo apt-get install vim
