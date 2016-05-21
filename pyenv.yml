@@ -1,0 +1,8 @@
+description: Install pyenv to manage several python version
+
+install:
+  - curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+
+depends:
+  - debian:
+    - sudo apt-get install -y curl
