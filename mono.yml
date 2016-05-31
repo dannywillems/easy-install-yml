@@ -1,0 +1,5 @@
+description: Install mono to compile .NET projects
+
+install:
+  - debian:
+    - sudo apt-get install mono-complete
