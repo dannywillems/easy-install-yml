@@ -1,0 +1,5 @@
+description: Install libtool
+
+install:
+  - debian:
+    - sudo apt-get install libtoo

@@ -1,0 +1,5 @@
+description: Install pkg-config.
+
+install:
+  - debian:
+    - sudo apt-get install pkg-config
