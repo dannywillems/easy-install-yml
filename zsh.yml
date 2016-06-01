@@ -1,0 +1,17 @@
+description: Install zsh.
+
+install:
+  - debian:
+    - sudo apt-get install zsh
+
+source:
+  get:
+    - git clone git://git.code.sf.net/p/zsh/code
+  depends:
+    - 'Install "dannywillems/easy-install", {"file": "yml/git.yml"}'
+  configure:
+    - ./Util/preconfig
+  compile:
+    - make
+  install:
+    - sudo make install
