@@ -1,0 +1,5 @@
+description: Install automate including aclocal binary.
+
+install:
+  - debian:
+    - sudo apt-get install automake
