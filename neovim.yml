@@ -2,6 +2,7 @@ description: Install neovim.
 
 source:
   depends-easy:
+    - 'Install "dannywillems/easy-install", {"file": "yml/git.yml"}'
     - 'Install "dannywillems/easy-install", {"file": "yml/cmake.yml"}'
     - 'Install "dannywillems/easy-install", {"file": "yml/pkg-config.yml"}'
     - 'Install "dannywillems/easy-install", {"file": "yml/libtool.yml"}'
