@@ -3,6 +3,9 @@ description: Install opam with the binary and install the last OCaml stable vers
 install:
   - wget https://raw.github.com/ocaml/opam/master/shell/opam_installer.sh -O - | sh -s /usr/local/bin
 
-depends:
-  - debian:
-    - sudo apt-get install -y unzip m4
+easy-depends:
+  - 'Install "dannywillems/easy-install", {"file": "yml/m4.yml"}'
+  - 'Install "dannywillems/easy-install", {"file": "yml/unzip.yml"}'
+  - 'Install "dannywillems/easy-install", {"file": "yml/aspcud.yml"}'
+  - 'Install "dannywillems/easy-install", {"file": "yml/hg.yml"}'
+

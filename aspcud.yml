@@ -1,0 +1,5 @@
+description: Install aspcud
+
+install:
+  - debian:
+    - sudo apt-get install -y aspcud

@@ -1,0 +1,5 @@
+description: Install mercurial
+
+install:
+  - debian:
+    - sudo apt-get install -y hg

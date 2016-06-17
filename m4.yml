@@ -1,0 +1,5 @@
+description: Install m4
+
+install:
+  - debian:
+    - sudo apt-get install -y m4
